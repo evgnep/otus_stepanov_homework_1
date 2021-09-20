@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install libs       
-        run: npx 
+        run: npx npm i
         
       - name: Test
         run: npm run test
