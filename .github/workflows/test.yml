@@ -10,5 +10,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Install libs       
+        run: npx 
+        
       - name: Test
         run: npm run test
