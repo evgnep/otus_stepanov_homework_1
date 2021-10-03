@@ -6,7 +6,7 @@ export interface IVelocityAdapter {
 }
 
 export class VelocityAdapter extends Adapter implements IVelocityAdapter {
-  constructor(obj: UObject, private velocity?: IVector) {
+  constructor(obj: UObject) {
     super(obj, "velocity");
   }
   getVelocity(): IVector {
