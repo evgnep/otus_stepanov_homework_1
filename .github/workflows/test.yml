@@ -13,5 +13,5 @@ jobs:
       - name: Install libs       
         run: npm i
         
-      - name: Test
+      - name: Run tests
         run: npm run test
