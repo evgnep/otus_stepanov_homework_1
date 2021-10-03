@@ -23,7 +23,7 @@ test("try move not position object ", () => {
   }).toThrow("position not found");
 });
 
-test("try move not position object ", () => {
+test("try move not velocity object ", () => {
   const tank = {};
   expect(() => {
     new MoveCommand(
